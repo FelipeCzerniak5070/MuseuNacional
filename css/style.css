@@ -1,19 +1,48 @@
 body {
-    background: #f4f2ec url("../img/fundo.png") repeat-x;
-    font: 12px "Lucida Grande";
+  background: #f4f2ec url("../img/fundo.png") repeat-x;
+  font: 12px "Lucida Grande";
 }
 
 #container {
-    width:1080px;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #af670a;
+}
+
+a:hover {
+    color: #b28a56;
+}
+
+/*Logo*/
 #logo a {
-    width: 248px;
-    height: 21px;
-    text-indent: -9999px;
-    display: block;
-    background: url("../img/logo.png");
+  width: 248px;
+  height: 21px;
+  text-indent: -9999px;
+  display: block;
+  background: url("../img/logo.png");
+  text-decoration: none;
+  margin-left: 3%;
 }
 
+/*Barra de Navegação*/
 
+header {
+    padding: 15px 0;
+    height: 15dvh; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    margin-right: 3%;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1% 0;
+}
